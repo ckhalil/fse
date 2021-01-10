@@ -4,6 +4,7 @@
 	<title>FSE 2020-2021</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <style type="text/css">
 	:root {
@@ -18,7 +19,8 @@
 		
 	}
 header nav.line {
-	background-color: #8BA1BB;
+	background:url(fse.jfif)no-repeat center/100%;;
+
 	position: relative;
 }
 
@@ -27,7 +29,7 @@ header nav.line {
 		width: 4px;
 		height: 120px;
 		
-		background-color: red;
+		background-color: #2a4b97;
 		margin-top: 40px;
 		margin-left: 35%;
 		margin-bottom: 0;
@@ -39,7 +41,7 @@ header nav.line {
 		width: 4px;
 		height: 120px;
 		
-		background-color: red;
+		background-color: #2a4b97;
 		margin-top: 40px;
 		margin-left : 65%;
 		position: absolute;
@@ -52,27 +54,31 @@ header nav.line {
 		margin-left: 40%;
 		margin-right: 50%
 		background-size: cover;
-		background-color: red;
+
 		
 		
 	}
 	
 div.titregouche{
-	color: red;
+	color: #758cba;
 	max-width: 250px;
 	position: absolute;
 	margin-left: 5%;
 	text-align: center;
 	margin-top: 3%;
+	text-decoration-style:bold;
+	font-family: "Arial Black",Impact, Arial, Verdana, sans-serif;
 }
 
 div.titredroite{
-	color: red;
+	color: #758cba;
 	max-width: 250px;
 	position: absolute;
 	margin-left: 75%;
 	margin-top: 3%;
 	text-align: center;
+	font-family: "Arial Black",Impact, Arial, Verdana, sans-serif;
+
 
 }
 
@@ -115,7 +121,7 @@ main div.maindiv2{
 div.section-grise1 {
     background: url(triangle2.svg) no-repeat center bottom/100%;
     background-color: var(--color1);
-    padding-bottom: 70px;  
+    padding-bottom: 50px;  
 }
 
 div.section-grise2 {
@@ -128,13 +134,14 @@ div.section-grise2 {
 div.section-grise3 {
     background: url(triangle1.svg) no-repeat center top/100%;
     background-color: var(--color1);
-    padding-bottom: 10px;  
+    padding-bottom: 0px;  
 
+    
 }
 
 
 div.separateur {
-    background-color: #979797;
+    background-color: var(--color1);
     height: 1px;
     width: 150px;
     position: relative;
@@ -168,23 +175,25 @@ div.separateur {
 	padding-top: 20px;
 	padding-bottom: 20px;
 
+
 }
 li{
 	text-align: left;
-	
+	color: #2a4b97;
 }
 ul h4{
 	text-decoration: underline;
+
 }
 
 .framevideo{
-	margin-left: 1%;
+	
 	margin-top: 1%;
 
 }
 
 input{
-	color: red;
+	color: #758cba;
 	border: 3px solid ;
 	font-size: 23px;
 }
@@ -240,6 +249,7 @@ header .line-lft{
 	margin-bottom: 7%;
 	margin-top:10%;
 	padding-bottom: 0px;
+
 	
 	
 }
@@ -247,6 +257,7 @@ header .line-lft{
 .objetformation{
 	max-width: 100%;
 	margin-left: 5%;
+
 	
 }
 
@@ -303,11 +314,11 @@ input{
 	
 <div >
   <nav class="line">
-  	<div class="titredroite">
+  	<div class="titredroite animate__animated animate__rotateIn">
   		<h3 style="margin-bottom: 0;"> PROMOTION :</h3>
   		  <p style="margin-top: 0"> 2020-2021 " SALARIE"</p>
    </div>
-  	<div class="titregouche">
+  	<div class="titregouche animate__animated animate__rotateIn">
   		<h3 style="margin-bottom: 0;"> FILIERE :</h3>
   		  <p style="margin-top: 0"> LP TECHNOLOGIE DE L’EDUCATION ET INNOVATION PEDAGOGIQUE </p>
   </div>
@@ -315,7 +326,7 @@ input{
   	<div class="line-lft"></div>
   	
   	<div class="line-rht"></div>
-  	<img src="logo2.png" >
+  	<a href="http://fse.um5.ac.ma/"><img src="logo2.png" ></a>
   	
   </nav>
 	
@@ -327,7 +338,7 @@ input{
   </div>
 	<div class="section section-grise1">
        
-        <p class="textsize" style="text-decoration:underline;"><b>OBJECTIFS DE LA FORMATION <b></p>
+        <p class="textsize animate__animated animate__backInLeft" style="text-decoration:underline;" ><b>OBJECTIFS DE LA FORMATION <b></p>
 
     </div>
 
@@ -349,7 +360,7 @@ solutions adaptées aux diverses situations faisant appel aux technologies éduc
 
 
     <div class="section section-grise3">
-    	        <p class="textsize"  style="text-decoration:underline;"><b>DEBOUCHE DE LA FORMATION <b></p>
+    	        <p class="textsize animate__animated animate__backInRight"  style="text-decoration:underline;"><b>DEBOUCHE DE LA FORMATION <b></p>
 
        <br>
        <br>
@@ -361,7 +372,7 @@ solutions adaptées aux diverses situations faisant appel aux technologies éduc
 
 
    <div class="section section-grise2">
-    	<br>
+    	<br><br><br>
         <div class="separateur"></div>
         <div class="objetformation">
         <ul class="textsize" ><h4>Les lauréats de la licence professionnelle en technologie éducative possèdent les savoirs et savoir-faire nécessaires dans le
@@ -380,8 +391,11 @@ Cette formation permet aux lauréats de :</h4>
 
 
 <footer>
+
+
 	<div class="footerindex">
-  	<input type="submit" value="ENTER">
+     	
+    <input type="submit" value="BIENVENUE" onclick="window.location.href = 'page1.html';">
   </div>
 </footer>
 
