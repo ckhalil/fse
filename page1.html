@@ -2,60 +2,74 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <style type="text/css">
 	body{
-		
+		background-image: url(study760.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-		    background-position: center center; 
-  background-attachment: fixed; 
-  background-repeat: no-repeat; background-size: cover; 
-  background-image: url(education.jpg);
-			}
 .login-container{
-	background-color: #758cba;
-	text-align: center;
-	margin-top: 10%;
-	margin-left: 30%;
-	width: 600px;
-	display: inline-block;
+	
+			text-align: center;
+			margin-top: 10%;
+			margin-left: 10%;
+			width: 80%;
+			display: inline-block;
+			border: 1px solid;
+			height: 300px;
+
+}
+
+.login-container{
+			color :blue;
+			background-color: none;
+			margin-top: 70px;
 }
 
 
-@media (max-width: 480px) {
-body{
-		 background-image: url(study.jpg);
-			}
+
+@media only screen and (max-width: 600px) {
+  .login-container { margin-top: 100px;}
+  body{background-image: url(study.jpg);}
+}
+
+
+
 </style>
 
 </head>
 <body>
  <div class="login-container">
     <h2>Login Form</h2>
-    <div class="row">
-        <div class="col-md-12 form-group">
+    
+        <div class="form-group">
             <input type="text" class="form-control" placeholder="Username">
         </div>
-    </div>
+    
     <br>
-    <div class="row">
-        <div class="col-md-12 form-group">
+    
+        <div class="form-group">
             <input type="password" placeholder="Enter your Password" class="form-control">
         </div>
-    </div>
+    
     <br>
-    <div class="row">
-        <div class="col-md-12 form-group">
+   
+        <div class="form-group">
             <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" value="CONNECTER" >
         </div>
-    </div>
+    
     <br>
-    <div class="row">
-        <div class="col-md-12">
+    
+        <div class="">
             <a href="https://goole.com">FSE</a>
         </div>
     </div>
-</div>
+</div> 
+
+
 </body>
 </html>
