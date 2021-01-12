@@ -45,33 +45,54 @@
 
 </style>
 
+
+<script type="text/javascript">
+
+	function log(){
+	user=document.getElementById("username").value;
+	pass =document.getElementById("password").value;
+	if(user=="admin" && pass=="admin")
+	    {
+		window.location.href = 'page2.html';
+		alert("BIENVENUE");
+		}
+	else{
+		alert("username ou password invalide");
+	}
+	}
+	
+</script>
+
 </head>
 <body>
  <div class="login-container">
     <h2>Login Form</h2>
     
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Username">
+            <input type="text" class="form-control" placeholder="Username" id="username" required>
         </div>
     
     <br>
     
         <div class="form-group">
-            <input type="password" placeholder="Enter your Password" class="form-control">
+            <input type="password" placeholder="Enter your Password" class="form-control" id="password" required>
         </div>
     
     <br>
    
         <div class="form-group">
-            <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" value="CONNECTER" >
+         <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" value="CONNECTER" onclick="log()">
         </div>
     
     <br>
     
         <div class="">
-            <a href="https://goole.com">FSE</a>
+            <a href="https://goole.com">FSE</a><br>
+            <label style="color:red;"><a href="index.html">Return</a></label> 
         </div>
     </div>
+
+
 </div> 
 
 
