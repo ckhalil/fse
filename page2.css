@@ -1,6 +1,6 @@
 
     	body{
-    		background-image: url(img/T-E.png);
+    		background-image: url(T-E.png);
     		background-size: cover;
     		background-repeat: no-repeat;
     	}
@@ -53,7 +53,7 @@ tr:nth-child(even) {
 
 
       body{
-        background-image: url(img/T-E2.png);
+        background-image: url(T-E2.png);
         background-size: cover 100%;
         background-repeat: no-repeat;
       }
