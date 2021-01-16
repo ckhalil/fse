@@ -25,6 +25,7 @@
 			margin: 40px;
 			padding: 15px;
 		}
+
 	</style>
 </head>
 <body>
@@ -53,7 +54,7 @@
     </div>
 
     <section class="cours_btn">
-	<h1>COURS</h1>
+	<h3>COURS</h3>
 <input  id="P1" class="btns" type="submit" name="" value="HTML P1"  >
 <input  id="P2" class="btns" type="submit" name="" value="HTML P2"  >
 
@@ -61,7 +62,7 @@
 
 
 <section class="cours_btn">
-	<h1>TP</h1>
+	<h3>TP</h3>
 <input  id="btn" class="btns" type="submit" name="" value="liens_externes"  >
 <input  id="btn2" class="btns" type="submit" name="" value="liens_internes"  >
 <input  id="btn3" class="btns"  type="submit" name="" value="liens_same_page"  >
@@ -69,6 +70,17 @@
 <input  id="btn5" class="btns" type="submit" name="" value="Les liste">
 <input  id="btn6" class="btns" type="submit" name="" value="Liste de definitions">
 <input  id="btn7" class="btns" type="submit" name="" value="usage avec l'element detail"  >
+</section>
+
+<section class="cours_btn">
+	<h3>Code Source</h3>
+<input  id="code1" class="btns" type="submit" name="" value="liens_externes"  >
+<input  id="code2" class="btns" type="submit" name="" value="liens_internes"  >
+<input  id="code3" class="btns"  type="submit" name="" value="liens_same_page"  >
+<input  id="code4" class="btns" type="submit" name="" value="Liste a puce-liste non ordonnee">
+<input  id="code5" class="btns" type="submit" name="" value="Les liste">
+<input  id="code6" class="btns" type="submit" name="" value="Liste de definitions">
+<input  id="code7" class="btns" type="submit" name="" value="usage avec l'element detail"  >
 </section>
 <section  class="frame_cours">
 	
@@ -78,7 +90,7 @@
 
 <script >
 
-
+// DEBUT les TP
 		
 	document.getElementById('btn').onclick= function()
 
@@ -151,6 +163,85 @@ document.getElementById('btn4').onclick= function()
 
  }
 
+ // FIN TP
+
+ //DEBUT CODE
+
+ //FIN CODE
+
+	document.getElementById('code1').onclick= function()
+
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "les liens externes.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+
+ 	
+	document.getElementById('code2').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "Liens internes.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+ 	
+
+
+ }
+
+	document.getElementById('code3').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "liens_same_page.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+ 	
+
+
+ }
+
+document.getElementById('code4').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "1-8-1.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+ 	
+ }
+
+ document.getElementById('code5').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "1-8-2.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+ 	
+
+
+ }
+
+  document.getElementById('code6').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "1-8-3.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+	
+ document.getElementById('code7').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "1-8-4.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+
+ // DEBUT  COURS
+
  document.getElementById('P1').onclick= function()
  {  
  	
@@ -164,10 +255,13 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "HTML-P2.pdf" ;
+    var loc = "HTML-P2.pdf";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
+
+// FIN COURS
+
 
 </script>
 </body>
