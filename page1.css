@@ -1,0 +1,35 @@
+	body{
+		background-image: url(img/study760.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		 background-attachment: fixed;
+		 background-size: 100% 100%;
+	}
+
+.login-container{
+	
+			text-align: center;
+			margin-top: 10%;
+			margin-left: 10%;
+			width: 80%;
+			display: inline-block;
+			border: 1px solid;
+			height: 300px;
+
+
+}
+
+.login-container{
+			color :blue;
+			background-color: none;
+			margin-top: 70px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .login-container { margin-top: 100px;}
+  body{background-image: url(study.jpg);background-position: center center;}
+}
+

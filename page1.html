@@ -1,59 +1,21 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-	<title>Login</title>
+	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<style>
-	body{
-		background-image: url(study760.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		 background-attachment: fixed;
-		 background-size: 100% 100%;
-	}
-
-.login-container{
-	
-			text-align: center;
-			margin-top: 10%;
-			margin-left: 10%;
-			width: 80%;
-			display: inline-block;
-			border: 1px solid;
-			height: 300px;
+<link rel="stylesheet" type="text/css" href="page1.css">
 
 
-}
-
-.login-container{
-			color :blue;
-			
-			margin-top: 70px;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-  .login-container { margin-top: 100px;}
-  body{background-image: url(study.jpg);background-position: center center;}
-}
-
-
-
-</style>
-
-
-<script >
+<script type="text/javascript">
 
 	function log(){
 	user=document.getElementById("username").value;
 	pass =document.getElementById("password").value;
 	if(user=="admin" && pass=="admin")
 	    {
-		window.location.href = "page2.html";
+		window.location.href = 'page2.html';
 		alert("BIENVENUE");
 		}
 	else{
@@ -66,22 +28,22 @@
 </head>
 <body>
  <div class="login-container">
-    <h2>Login Form</h2>
+    <h2>Connexion</h2>
     
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Username" id="username" required>
+            <input type="text" class="form-control" placeholder="Nom d'utilisateur" id="username" required>
         </div>
     
     <br>
     
         <div class="form-group">
-            <input type="password" placeholder="Enter your Password" class="form-control" id="password" required>
+            <input type="password" placeholder="Enter mot de passe" class="form-control" id="password" required>
         </div>
     
     <br>
    
         <div class="form-group">
-         <input type="submit" class="btn btn-block btn-login"  value="CONNECTER" onclick="log()">
+         <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" value="CONNECTER" onclick="log()">
         </div>
     
     <br>
@@ -93,6 +55,7 @@
     </div>
 
 
+</div> 
 
 
 </body>
