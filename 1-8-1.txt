@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Liste a puce ou liste non ordonnee</h1>
+<ul style="list-style-type: disc;">
+	<li>Tableurs</li>
+	<li>Navigateur</li>
+	<li>Traitement de text</li>
+</ul>
+
+
+<h1>Type de puce</h1>
+<ul style="list-style-type: square;">
+	<li>Tableurs</li>
+	<li>Navigateur</li>
+	<li>Traitement de text</li>
+</ul>
+
+
+<h1>Listes imbriquees</h1>
+
+<ul>
+	<li style="list-style-type: disc;">Tableurs
+		<ul style="list-style-type: circle;">
+		<li>
+		Microsoft Excel
+	    </li>
+		<li >
+		Open office calc
+	     </li>
+		<li >
+		  Google sheets
+		 </li>
+		 </ul>
+	</li>
+</ul>
+
+<ul>
+	<li style="list-style-type: disc;">Navigateur
+		<ul  style="list-style-type: circle;">
+		<li>
+		Google chrome
+	    </li>
+		<li >
+		Opera
+	     </li>
+		<li >
+		  Mozilla Firefox
+		 </li>
+		 </ul>
+	</li>
+</ul>
+
+
+<ul>
+	<li style="list-style-type: disc;">
+		Traitement de text
+	</li>
+
+</ul>
+
+</body>
+</html>

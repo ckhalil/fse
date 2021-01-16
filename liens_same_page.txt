@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Liens vers les différentes sections de la même page</title>
+</head>
+<body>
+	<header>
+	  <h1>Liens vers les différentes sections de la même page</h1>
+		  
+		  <ul>
+		  	<li><a href="#s1">section1</a></li>
+		  	<li><a href="#s2">section2</a></li>
+		  	<li><a href="#s3">section3</a></li>
+		  	<li><a href="#s4">section4</a></li>
+		  	<li><a href="#s5">section5</a></li>
+		  	<li><a href="#s6">section6</a></li>
+		  </ul>
+
+	</header>
+
+	<main>
+		<section id="s1">
+			<h2>Section 1</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia at saepe expedita repellat, doloribus laudantium, amet. Vitae, reprehenderit unde mollitia suscipit nihil explicabo a, ullam odio ipsa doloribus, provident, temporibus.</p>
+			
+		</section>
+
+		<section id="s2">
+			<h2>Section 2</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum officiis praesentium, asperiores ullam repudiandae alias tempore odit quas numquam quasi error! Iste repudiandae eligendi ex deleniti maxime ratione dolorum?</p>
+			
+		</section>
+
+		<section id="s3">
+			<h2>Section 3</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Esse in repellendus, id perferendis, laudantium facilis tenetur nulla optio tempore dignissimos quam molestiae ea? Voluptatum rem eos soluta, libero doloremque, in.</p>
+			
+		</section>
+
+		<section id="s4">
+			<h2>Section 4</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat quas quo enim obcaecati distinctio fugit ad perferendis, molestias magnam rerum laboriosam placeat officia eligendi voluptatibus sapiente magni consectetur sunt alias.</p>
+			
+		</section>
+
+		<section id="s5">
+			<h2>Section 5</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Architecto laborum inventore, possimus illo, dignissimos quos doloribus minima debitis reiciendis animi consectetur autem ab, qui atque molestiae distinctio voluptate dolorum dolores!</p>
+			
+		</section>
+
+		<div >
+			<h2><a id="s6"> Section 6</a></h2>
+			<p>
+				<a href="#top">ver le haut (#Top)</a><br>
+				<a href="#">ver le haut (#)</a>
+
+			</p>
+
+		</div>
+	</main>
+
+	<footer>
+		<hr>
+		<a href="mailto:fse.tice@gnail.com"> contacter FSE-rABAT</a>
+	</footer>
+
+
+</body>
+</html>												

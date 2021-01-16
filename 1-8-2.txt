@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Liste  ordonnee</h1>
+<ol >
+	<li>Tableurs</li>
+	<li>Navigateur</li>
+	<li>Traitement de text</li>
+</ol>
+
+
+<h1>Type de numerotation</h1>
+<ol style="list-style-type: upper-roman;">
+	<li>Tableurs</li>
+	<li>Navigateur</li>
+	<li>Traitement de text</li>
+</ol>
+
+
+
+<h1>les attribut start et reversed</h1>
+
+<ol start="15">
+	<li>Tableurs</li>
+	<li>Navigateur</li>
+	<li>Traitement de text</li>
+</ol>
+
+
+<ol reversed="true" start="10">
+	<li>Tableurs</li>
+	<li>Navigateur</li>
+	<li>Traitement de text</li>
+</ol>
+
+
+<h1>liste imbriquees</h1>
+
+<ol>
+	<li >Tableurs
+		<ul style="list-style-type: circle;">
+		<li>
+		Microsoft Excel
+	    </li>
+		<li >
+		Open office calc
+	     </li>
+		<li >
+		  Google sheets
+		 </li>
+		 </ul>
+	</li>
+
+
+
+	<li >Navigateur
+		<ul  style="list-style-type: circle;">
+		<li>
+		Google chrome
+	    </li>
+		<li >
+		Opera
+	     </li>
+		<li >
+		  Mozilla Firefox
+		 </li>
+		 </ul>
+	</li>
+
+	<li ">
+		Traitement de text
+	</li>
+
+</ol>
+
+</body>
+</html>

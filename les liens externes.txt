@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Liens</title>
+</head>
+<body>
+	<h1>les liens (links)</h1>
+	<section>
+		<h1>les liens externes</h1>
+		<p>
+			un lien externe est un lien qui part d'un site et mène les utilisateurs vers un autre fichier d'un autre site
+		</p>
+	    <p>exmple de lien externe:<br>
+
+	    	<!--lien vers le site de la FSE-->
+	    	<a href="http://www.fse.um5.ac.ma">le site WEB de la FSE</a>
+	    </p>
+    </section>
+    <section>
+    <h1>les attributs title et target</h1>
+    <p>
+    	l'attribut target indique ou afficher la ressource liée .il s'agit du nom (name),ou du mot-clé, d'un contexte de navigation.
+        le mot-clé peut prendre des valeurs prédéfinies _blank , _parent, _self et _trop pour afficher la cible, respectivement, dans une nouvelle fenêtre (ou un nouveau onglet),la fenêtre parent de la fenêtre en cours ,le fenêtre elle-même et la fenêtre de plus haut niveau
+    </p>
+
+   <p>exemple:<br>
+   <a href="http://www.fse.um5.ac.ma" target="_blank" title="site FSE">le site WEB de la FSE</a>
+   </p>
+   </section>
+</body>
+</html>
