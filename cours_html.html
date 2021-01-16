@@ -40,10 +40,10 @@
 				    </button>
 				    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				      <div class="navbar-nav">
-				        <a class="nav-link active  text-white" aria-current="page" href="index.html">Page d'accueil</a>
+				        <a class="nav-link active  text-white" aria-current="page" href="index.html">Home</a>
 				        <a class="nav-link text-white" href="#">COURS</a>
 				        <a class="nav-link text-white" href="#">TP</a>
-				        <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Divers</a>
+				        <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
 				      </div>
 				    </div>
 				  </div>
@@ -52,7 +52,16 @@
        </div>
     </div>
 
+    <section class="cours_btn">
+	<h1>COURS</h1>
+<input  id="P1" class="btns" type="submit" name="" value="HTML P1"  >
+<input  id="P2" class="btns" type="submit" name="" value="HTML P2"  >
+
+</section>
+
+
 <section class="cours_btn">
+	<h1>TP</h1>
 <input  id="btn" class="btns" type="submit" name="" value="liens_externes"  >
 <input  id="btn2" class="btns" type="submit" name="" value="liens_internes"  >
 <input  id="btn3" class="btns"  type="submit" name="" value="liens_same_page"  >
@@ -63,7 +72,8 @@
 </section>
 <section  class="frame_cours">
 	
-	<iframe  class="cours" id="liens_externes" src="tp2-1_liens_externes.html" width=100% height="600px" ></iframe>
+   <iframe  class="cours" id="liens_externes" src="tp2-1_liens_externes.html" width=100% height="600px" ></iframe> 
+	<embed class="cours" id="liens_externes" src="" type="application/pdf"   width=100% >
 </section>
 
 <script >
@@ -141,7 +151,23 @@ document.getElementById('btn4').onclick= function()
 
  }
 
+ document.getElementById('P1').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "HTML-P1.pdf";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
 
+ }
+
+  document.getElementById('P2').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "HTML-P2.pdf";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
 
 </script>
 </body>
