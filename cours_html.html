@@ -295,7 +295,9 @@ div.search{
     <section class="cours_btn">
 	<h3>COURS :</h3>
 <a href="#show"><input  id="P1" class="btns" type="submit" name="" value="HTML P1"  ></a>
-<a href="#show"><input  id="P2" class="btns" type="submit" name="" value="HTML P2"  ></a>
+<a href="#show"><input  id="P2" class="btns" type="submit" name="" value="HTML P2"  ></a
+<a href="#show"><input  id="P3" class="btns" type="submit" name="" value="HTML P3"  ></a>
+<a href="#show"><input  id="P4" class="btns" type="submit" name="" value="HTML P4"  ></a>
 
 
 	<h3>TP :</h3>
@@ -307,6 +309,8 @@ div.search{
 <a href="#show"><input  id="btn5" class="btns" type="submit" name="" value="Les liste"></a>
 <a href="#show"><input  id="btn6" class="btns" type="submit" name="" value="Liste de definitions"></a>
 <a href="#show"><input  id="btn7" class="btns" type="submit" name="" value="usage avec l'element detail"  ></a>
+<a href="#show"><input  id="btn8" class="btns" type="submit" name="" value="Les image 1"></a>
+<a href="#show"><input  id="btn9" class="btns" type="submit" name="" value="les image 2"  ></a>
 </div>
 
 	<h3>Code Source :</h3>
@@ -397,6 +401,22 @@ document.getElementById('btn4').onclick= function()
  	
     document.getElementById("liens_externes").style.visibility = "visible";
     var loc = "1-8-4.html";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+	
+	 document.getElementById('btn8').onclick= function()
+ {  
+  document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "Tp1.html";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+ 
+	 document.getElementById('btn9').onclick= function()
+ {  
+   document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "Tp2.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -494,6 +514,25 @@ document.getElementById('code4').onclick= function()
  	
     document.getElementById("liens_externes").style.visibility = "visible";
     var loc = "HTML-P2.pdf";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+	
+
+  document.getElementById('P3').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "P3.pdf";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+
+  document.getElementById('P4').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "TP4.pdf";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
