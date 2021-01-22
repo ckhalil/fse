@@ -5,9 +5,10 @@
 	 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<style >
+
+	<style >
 		body{
-			background-image: url("html.png");
+			background-image: url("img/html.png");
 		}
 		.bg-dark {
     background-color: #212529!important;
@@ -18,9 +19,12 @@
 		}
 		.cours_btn{
 			margin: 20px;
+			margin-top: 40px;
 			margin-left: 3%;
 			border: 3px solid;
-			padding: 10px;
+			padding-top: 2px;
+			padding-left:10px;
+			padding-bottom:10px;
 
 		}
       .cours_btn h3{
@@ -39,36 +43,165 @@
 			padding: 15px;
 		}
 
+
+		.navmenu {
+			background-color: black;
+			color: white;
+			width: 70%;
+			height: 60px;
+			margin-left: 80px;
+			margin-right: 20px;
+			
+		}
+
+
+		ul{
+			list-style-type: none;	
+			position: absolute;
+			
+		}
+		ul li {
+			float: left;
+			margin:15px;
+			font-size: 24px;
+			padding-left: 0px;
+
+			
+			
+		}
+        
+        ul li a{
+			color: white;
+
+			
+		}
+		ul li span {
+			color :red;
+			float: none;
+
+			
+			
+			
+		}
+			ul li span p:first-child {
+			color :red;
+			float: none;
+			margin: 0;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			
+			
+		}
+
+		ul li span p {
+			
+			margin-top: 2px;
+			
+			font-size: 18px;
+			text-decoration: bold;	
+			 line-height : 5px;
+		}
+
+		ul li span p a {
+			
+			margin: 0px;
+			color: red;
+			font-size: 18px;
+			text-decoration: bold;	
+			padding: 0px;
+
+		}
+
+
+		ul li span{
+			visibility: hidden;
+		}
+      
+     div.searchsubmit{
+      	padding:15px;
+      	position: absolute;
+      	margin-left: 100%;
+      }
+
+      div.searchtext{
+      	padding:15px;
+      	position: absolute;
+      	margin-left: 80%;
+      }
+		
+@media only screen and (max-width: 960px) {
+div.search{
+      	visibility: hidden;
+      }
+}
 		@media only screen and (max-width: 768px) {
 
+			.navmenu {
+			
+	   	overflow: hidden;
+		  background-color: #333;
+		  position: relative;
+			
+			
+		}
+
+
+		.navmenu #sp2{
+			display: none;
+
+		}
+
+		.navmenu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
 			.inp {
 				max-width: 50px;
 			}
 			.frame_cours{
+			background-color: #20c9a670;
+			margin: 40px;
+			padding: 15px;
+			width: 100%;
+		}
+		div.search{
+      	visibility: hidden;
+      }
+
+      ul li {
+			float: none;
+			margin:5px;
+			font-size: 14px;
 			
-			margin: 20px;
-			padding: 5px;
+			
+		}
+
 		}
 
 	</style>
 </head>
 <body>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-				
 
+				
+<!-- 
             <nav class="navbar navbar-expand bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="http://fse.um5.ac.ma/">FSE</a>
+    <a class="navbar-brand" href="#">FSE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-white " aria-current="page" href="index.html">Page d'accueil</a>
+          <a class="nav-link text-white " aria-current="page" href="#">Page d'accueil</a>
         </li>
         
         <li class="nav-item dropdown">
@@ -87,14 +220,14 @@
             TP
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="tp2-1_liens_externes.html">les liens externes</a></li>
-            <li><a class="dropdown-item" href="tp2-2_liens_internes.html">Liens internes</a></li>
-            <li><a class="dropdown-item" href="tp2-3_liens_same_page.html">Liens vers les différentes sections</a></li>
-            <li><a class="dropdown-item" href="1-8-1.html">Liste a puce ou liste non ordonnee</a></li>
+            <li><a class="dropdown-item" href="tp/tp2-1_liens_externes.html">les liens externes</a></li>
+            <li><a class="dropdown-item" href="tp/tp2-2_liens_internes.html">Liens internes</a></li>
+            <li><a class="dropdown-item" href="tp/tp2-3_liens_same_page.html">Liens vers les différentes sections</a></li>
+            <li><a class="dropdown-item" href="tp/1-8-1.html">Liste a puce ou liste non ordonnee</a></li>
            
-           <li><a class="dropdown-item" href="1-8-2.html">les Listes</a></li>
-           <li><a class="dropdown-item" href="1-8-3.html">Liste de definitions</a></li>
-           <li><a class="dropdown-item" href="1-8-4.html">usage avec l'element detail</a></li>
+           <li><a class="dropdown-item" href="tp/1-8-2.html">les Listes</a></li>
+           <li><a class="dropdown-item" href="tp/1-8-3.html">Liste de definitions</a></li>
+           <li><a class="dropdown-item" href="tp/1-8-4.html">usage avec l'element detail</a></li>
            
            
           </ul>
@@ -107,12 +240,52 @@
       </form>
     </div>
   </div>
-</nav>
+</nav> -->
              
 
-         </div>
-       </div>
+<div class="navmenu" >
+
+<ul class="active">
+	<li><a href="http://fse.um5.ac.ma/">FSE</a></li>
+	<li><a href="index.html">Accueil</a> </li>
+	<li onmousemove=sp1show() onmouseout=sp1hide()>Cours
+      <span id="sp1">
+      	<p><a href="HTML-P1.pdf">HTML P1</a> </p>
+      	<p><a href="HTML-P2.pdf">HTML P2</a></p>
+      </span>
+
+	</li>
+	<li onmousemove=sp2show() onmouseout=sp2hide()>TP
+
+       <span id="sp2" class="sp2">
+      	<p><a href="tp2-1_liens_externes.html">Liens externes</a> </p>
+      	<p><a href="tp2-2_liens_internes.html">Liens internes</a></p>
+      	<p><a href="tp2-3_liens_same_page.html">Liens vers les différentes sections</a> </p>
+      	<p><a href="1-8-1.html">Liste a puce/liste non ordonnee</a></p>
+      	<p><a href="1-8-2.html">Les listes</a> </p>
+      	<p><a href="1-8-3.html">Liste de definitions</a></p>
+      	<p><a href="1-8-4.html">Usage avec l'element detail</a></p>
+      	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars">mmmm</i>
+  </a>
+      </span>
+
+	</li>
+
+	<div class="searchtext">
+		  <input type="text" name="" placeholder="searche">
+		  
     </div>
+    <div class="searchsubmit">
+		  
+		  <input type="submit" name="" value="search">
+    </div>
+
+    
+</ul>
+
+</div>
+        
 
     <section class="cours_btn">
 	<h3>COURS :</h3>
@@ -157,7 +330,7 @@
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "tp2-1_liens_externes.html";
+    var loc = "tp/tp2-1_liens_externes.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -167,7 +340,7 @@
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "tp2-2_liens_internes.html";
+    var loc = "tp/tp2-2_liens_internes.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
 
@@ -178,7 +351,7 @@
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "tp2-3_liens_same_page.html";
+    var loc = "tp/tp2-3_liens_same_page.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
 
@@ -189,7 +362,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-1.html";
+    var loc = "tp/1-8-1.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
  }
@@ -198,7 +371,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-2.html";
+    var loc = "tp/1-8-2.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
 
@@ -209,7 +382,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-3.html";
+    var loc = "tp/1-8-3.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -218,7 +391,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-4.html";
+    var loc = "tp/1-8-4.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -234,7 +407,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "les liens externes.txt";
+    var loc = "codesource/les liens externes.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -244,7 +417,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "Liens internes.txt";
+    var loc = "codesource/Liens internes.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
 
@@ -255,7 +428,7 @@ document.getElementById('btn4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "liens_same_page.txt";
+    var loc = "codesource/liens_same_page.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
 
@@ -266,7 +439,7 @@ document.getElementById('code4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-1.txt";
+    var loc = "codesource/1-8-1.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
  }
@@ -275,7 +448,7 @@ document.getElementById('code4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-2.txt";
+    var loc = "codesource/1-8-2.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
  	
 
@@ -286,7 +459,7 @@ document.getElementById('code4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-3.txt";
+    var loc = "codesource/1-8-3.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -295,7 +468,7 @@ document.getElementById('code4').onclick= function()
  {  
  	
     document.getElementById("liens_externes").style.visibility = "visible";
-    var loc = "1-8-4.txt";
+    var loc = "codesource/1-8-4.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -322,7 +495,34 @@ document.getElementById('code4').onclick= function()
 
 // FIN COURS
 
+//MENU
+function sp1show(){
+		document.getElementById("sp1").style.visibility = "visible";
+		}
 
+		function sp1hide(){
+		document.getElementById("sp1").style.visibility = "hidden";
+		}
+
+		function sp2show(){
+		document.getElementById("sp2").style.visibility = "visible";
+		}
+
+		function sp2hide(){
+		document.getElementById("sp2").style.visibility = "hidden";
+		}
+
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("sp2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
