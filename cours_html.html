@@ -322,6 +322,8 @@ div.search{
 <a href="#show"><input  id="code5" class="btns" type="submit" name="" value="Les liste"></a>
 <a href="#show"><input  id="code6" class="btns" type="submit" name="" value="Liste de definitions"></a>
 <a href="#show"><input  id="code7" class="btns" type="submit" name="" value="usage avec l'element detail"  ></a>
+<a href="#show"><input  id="code8" class="btns" type="submit" name="" value="Les image 1"></a>
+<a href="#show"><input  id="code9" class="btns" type="submit" name="" value="Les image 2"  ></a>
 </div>
 </section>
 <section  class="frame_cours" id="show">
@@ -494,6 +496,24 @@ document.getElementById('code4').onclick= function()
  	
     document.getElementById("liens_externes").style.visibility = "visible";
     var loc = "1-8-4.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+	
+ document.getElementById('code8').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "Tp1.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+	
+ document.getElementById('code9').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "Tp2.txt";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
