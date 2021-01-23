@@ -311,6 +311,7 @@ div.search{
 <a href="#show"><input  id="btn7" class="btns" type="submit" name="" value="usage avec l'element detail"  ></a>
 <a href="#show"><input  id="btn8" class="btns" type="submit" name="" value="Les image 1"></a>
 <a href="#show"><input  id="btn9" class="btns" type="submit" name="" value="les image 2"  ></a>
+<a href="#show"><input  id="btn10" class="btns" type="submit" name="" value="Curriculum Vitae "  ></a>
 </div>
 
 	<h3>Code Source :</h3>
@@ -324,7 +325,11 @@ div.search{
 <a href="#show"><input  id="code7" class="btns" type="submit" name="" value="usage avec l'element detail"  ></a>
 <a href="#show"><input  id="code8" class="btns" type="submit" name="" value="Les image 1"></a>
 <a href="#show"><input  id="code9" class="btns" type="submit" name="" value="Les image 2"  ></a>
+<a href="#show"><input  id="code10" class="btns" type="submit" name="" value="Curriculum Vitae "  ></a>
 </div>
+	    
+
+
 </section>
 <section  class="frame_cours" id="show">
 	
@@ -419,6 +424,14 @@ document.getElementById('btn4').onclick= function()
  {  
    document.getElementById("liens_externes").style.visibility = "visible";
     var loc = "Tp2.html";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
+	
+	 document.getElementById('btn10').onclick= function()
+ {  
+   document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "cv.html";
  	document.getElementById("liens_externes").setAttribute('src', loc);
 
  }
@@ -518,6 +531,14 @@ document.getElementById('code4').onclick= function()
 
  }
 
+	 document.getElementById('code10').onclick= function()
+ {  
+ 	
+    document.getElementById("liens_externes").style.visibility = "visible";
+    var loc = "cv.txt";
+ 	document.getElementById("liens_externes").setAttribute('src', loc);
+
+ }
  // DEBUT  COURS
 
  document.getElementById('P1').onclick= function()
