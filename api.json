@@ -1,4 +1,11 @@
 [
-{ {"num": 200013102, "classe": "CE1-A", "groupe": "Taounate", "nom": "AKERDOUSSE", "prenom": "AICHA"}}{"n": {200013109, "classe": "CE1-A", "groupe": "Taounate", "nom": "HOMI", "prenom": "CHAYMAE"}}
-
-]
+	{"num": 200013105, 
+"classe", "CE1-A",
+ "groupe" "Taounate", 
+"nom": "EL-HORMA",
+ "prenom": "NIAMATALLAH"},
+{"num": 200013105, 
+"classe", "CE1-A",
+ "groupe": "Taounate",
+  "nom": "EL-HORMA", 
+"prenom": "NIAMATALLAH"}]
